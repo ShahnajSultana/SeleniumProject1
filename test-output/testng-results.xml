@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2021-10-30T21:11:42 BDT" finished-at="2021-10-30T21:11:42 BDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2021-10-30T21:11:42 BDT" finished-at="2021-10-30T21:11:42 BDT">
+      <class name="com.TestNG.Factory.Factory1Test">
+        <test-method status="PASS" signature="Factory1Method1()[pri:0, instance:com.TestNG.Factory.Factory1Test@1efed156, instance params:[]]" name="Factory1Method1" duration-ms="7" started-at="2021-10-30T21:11:42 BDT" finished-at="2021-10-30T21:11:42 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Factory1Method1 -->
+      </class> <!-- com.TestNG.Factory.Factory1Test -->
+      <class name="com.TestNG.Factory.Factory2Test">
+        <test-method status="PASS" signature="Factory2Method1()[pri:0, instance:com.TestNG.Factory.Factory2Test@614ddd49, instance params:[]]" name="Factory2Method1" duration-ms="2" started-at="2021-10-30T21:11:42 BDT" finished-at="2021-10-30T21:11:42 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Factory2Method1 -->
+        <test-method status="PASS" signature="Factory2Method2()[pri:0, instance:com.TestNG.Factory.Factory2Test@614ddd49, instance params:[]]" name="Factory2Method2" duration-ms="1" started-at="2021-10-30T21:11:42 BDT" finished-at="2021-10-30T21:11:42 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Factory2Method2 -->
+      </class> <!-- com.TestNG.Factory.Factory2Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

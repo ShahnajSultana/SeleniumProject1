@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+	<!--<suite name="ParallelDemo">
+parallel methods //two methods at the same time from one class <test 
+		name="ParallelMethod" parallel="methods" thread-count="5"> <classes> <class 
+		name="com.TestNG.ParallelDemo.ParallelDemo"></class> </classes> -->
+		
+<!-- Parallel of Classes//two class executed at the same time <test name="ParallelMethod" 
+	parallel="classes" thread-count="5"> <classes> <class name="com.TestNG.ParallelDemo.ParallelDemo"></class> 
+		<class name="com.TestNG.ParallelDemo.ParallelDemo2"></class> </classes> -->
+		
+<!-- <suite name="ParallelDemo" thread-count="5" parallel="methods"> <test 
+	name="ParallelMethod"> <classes> <class name="com.TestNG.ParallelDemo.ParallelDemo"></class> 
+	</classes> -->
+	
+<!-- <test name="ParallelMethod" parallel="classes" thread-count="5"> 
+					<classes> <class name="com.TestNG.ParallelDemo.ParallelDemo"></class> <class 
+					name="com.TestNG.ParallelDemo.ParallelDemo2"></class> </classes> -->
+					
+					
+<!--
+<suite name="ParallelDemo" thread-count="5" parallel="tests">
+	<test name="ParallelTest1">
+		<classes>
+			<class name="com.TestNG.ParallelDemo.ParallelDemo"></class>
+		</classes>
+		</test>
+	<test name="ParallelTest2">
+		<classes>
+			<class name="com.TestNG.ParallelDemo.ParallelDemo2"></class>
+		</classes>
+
+		</test>
+	</suite>
+-->
+<!-- 4browsers are opening- two classes and under each class there are two methods -->
+<suite name="ParallelDemo" thread-count="5" parallel="tests">
+	<test name="ParallelTest1" parallel="methods" thread-count="2">
+		<classes>
+			<class name="com.TestNG.ParallelDemo.ParallelDemo"></class>
+		</classes>
+		</test>
+	<test name="ParallelTest2" parallel="methods" thread-count="2">
+		<classes>
+			<class name="com.TestNG.ParallelDemo.ParallelDemo2"></class>
+		</classes>
+
+		</test>
+	</suite>
